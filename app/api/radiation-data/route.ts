@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/139PrOyrT4Nuwv_pLWpRdXvaS-J5BIRywC__49I8KCxE/export?format=csv';
+    const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQgNusyjbTFoIKy0BsQ45-qFoSOX2-cnqmaOlI4zF_c9bYw5YBHlIrvMeRkkBeIz7VQ15qbxvkCTHiT/pub?output=csv';
     
     const response = await fetch(SHEET_CSV_URL, {
       headers: {

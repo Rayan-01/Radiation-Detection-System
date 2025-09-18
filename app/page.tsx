@@ -33,7 +33,7 @@ export default function RadiationMonitor() {
   const [error, setError] = useState<string | null>(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/139PrOyrT4Nuwv_pLWpRdXvaS-J5BIRywC__49I8KCxE/export?format=csv';
+  const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQgNusyjbTFoIKy0BsQ45-qFoSOX2-cnqmaOlI4zF_c9bYw5YBHlIrvMeRkkBeIz7VQ15qbxvkCTHiT/pub?output=csv';
 
   const fetchData = async (showRefreshing = false) => {
     try {
